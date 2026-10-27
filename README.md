@@ -1,22 +1,29 @@
 # Prithvi Datla
 
-Builder, seller, operator. I ship product, sell it, and run the business.
+I run KiloByte Collective, an applied AI lab that builds agent systems for small businesses and the trades. Before that I owned digital product P&Ls at Verizon and AT&T. I also wrote The RAG Book.
 
-## Agent work
+## The RAG Book
 
-- [agent-eval-harness](https://github.com/velvetchief/agent-eval-harness), three-layer eval harness for tool-calling agents: deterministic checks, a rubric-anchored LLM judge with human calibration, and struggle detection.
-- [jev-airbag](https://github.com/velvetchief/jev-airbag), a Claude Code hook that reads every shell command and blocks the ones that would delete something that matters.
-- [pskills](https://github.com/velvetchief/pskills), skills for running a business on agents.
-- [momito](https://github.com/velvetchief/momito), fully local hold-to-talk dictation for macOS.
+[theragbook.com](https://theragbook.com) covers retrieval, agents and multi-agent systems, from first principles to production. The [companion repo](https://github.com/velvetchief/the-rag-book) has three labs and a multi-agent capstone.
 
-## Eval demos
+## Evals
 
-Public write-ups with the data behind them, on [prithvidatla.com/evals](https://prithvidatla.com/evals/):
+Each repo holds the tasks, the answer keys, the runner and the graded outputs, so you can check every number. The write-ups are on [prithvidatla.com/evals](https://prithvidatla.com/evals/).
 
-- [jev vs llms, closed and open](https://prithvidatla.com/evals/jev/), a decision model against Claude and three fine-tuned open models on hand-labeled Texas RFPs.
-- [expert capture: payroll ops](https://prithvidatla.com/evals/payroll/), a payroll workflow, a rubric, and a 3×3 eval across three Claude models.
+- [rfp-extraction-bakeoff](https://github.com/velvetchief/rfp-extraction-bakeoff) compares Claude few-shot, three LoRA-tuned open models and Jev sentence selection on extracting requirements from public Texas RFPs. The answer keys are hand-checked. [Write-up](https://prithvidatla.com/evals/jev/).
+- [payroll-llm-eval](https://github.com/velvetchief/payroll-llm-eval) gives Claude Opus, Sonnet and Haiku 5.5 ten tasks a senior payroll specialist would get. A 13-point rubric with legal sources grades each answer by hand. [Write-up](https://prithvidatla.com/evals/payroll/).
+- [agent-eval-harness](https://github.com/velvetchief/agent-eval-harness) is a three-layer harness for tool-calling agents: deterministic checks, a rubric-anchored LLM judge calibrated against human labels, and struggle detection.
+
+## Grounded RAG
+
+- [civicllm](https://github.com/velvetchief/civicllm) answers questions from city codes. Every answer cites its section, and the system refuses when the code does not cover the question. It runs on local weights through Ollama or on Claude.
+
+## Agent tools
+
+- [jev-airbag](https://github.com/velvetchief/jev-airbag) is a Claude Code hook that reads every shell command and blocks the ones that would delete something that matters.
+- [pskills](https://github.com/velvetchief/pskills) holds the skills I use to run a business on agents.
+- [momito](https://github.com/velvetchief/momito) is fully local hold-to-talk dictation for macOS on Apple silicon.
 
 ## Elsewhere
 
-- Site: [prithvidatla.com](https://prithvidatla.com)
-- The RAG Book: [theragbook.com](https://theragbook.com) · [companion repo](https://github.com/velvetchief/the-rag-book)
+[prithvidatla.com](https://prithvidatla.com) · [LinkedIn](https://www.linkedin.com/in/pvd5)
