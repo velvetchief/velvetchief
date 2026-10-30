@@ -1,6 +1,6 @@
 # Prithvi Datla
 
-I ran KiloByte Collective, an applied AI lab that built agent systems for small businesses and the trades. I also wrote The RAG Book. Before that I owned digital product P&Ls at Verizon and AT&T. I take on contract delivery work, scoped per project or on a weekly block.
+I ran KiloByte Collective, an applied AI lab that built agent systems for small businesses and the trades. I also wrote The RAG Book. Before that I owned digital product P&Ls at Verizon and AT&T.
 
 ## The RAG Book
 
